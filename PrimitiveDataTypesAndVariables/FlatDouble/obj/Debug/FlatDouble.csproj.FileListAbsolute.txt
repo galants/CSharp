@@ -1,0 +1,5 @@
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\FlatDouble\bin\Debug\FlatDouble.exe.config
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\FlatDouble\bin\Debug\FlatDouble.exe
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\FlatDouble\bin\Debug\FlatDouble.pdb
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\FlatDouble\obj\Debug\FlatDouble.exe
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\FlatDouble\obj\Debug\FlatDouble.pdb

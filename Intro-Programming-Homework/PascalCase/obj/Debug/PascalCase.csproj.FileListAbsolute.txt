@@ -1,0 +1,5 @@
+D:\Users\Vencislav\Documents\Visual Studio 2013\Projects\Intro-Programming-Homework\PascalCase\bin\Debug\PascalCase.exe.config
+D:\Users\Vencislav\Documents\Visual Studio 2013\Projects\Intro-Programming-Homework\PascalCase\bin\Debug\PascalCase.exe
+D:\Users\Vencislav\Documents\Visual Studio 2013\Projects\Intro-Programming-Homework\PascalCase\bin\Debug\PascalCase.pdb
+D:\Users\Vencislav\Documents\Visual Studio 2013\Projects\Intro-Programming-Homework\PascalCase\obj\Debug\PascalCase.exe
+D:\Users\Vencislav\Documents\Visual Studio 2013\Projects\Intro-Programming-Homework\PascalCase\obj\Debug\PascalCase.pdb

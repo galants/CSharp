@@ -1,0 +1,5 @@
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\16.Sunglasses\bin\Debug\16.Sunglasses.exe.config
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\16.Sunglasses\bin\Debug\16.Sunglasses.exe
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\16.Sunglasses\bin\Debug\16.Sunglasses.pdb
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\16.Sunglasses\obj\Debug\16.Sunglasses.exe
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\16.Sunglasses\obj\Debug\16.Sunglasses.pdb

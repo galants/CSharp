@@ -1,0 +1,6 @@
+D:\Users\Vencislav\Documents\Visual Studio 2013\Projects\Intro-Programming-Homework\PrintsFirstAndLastName\bin\Debug\PrintsFirstAndLastName.exe.config
+D:\Users\Vencislav\Documents\Visual Studio 2013\Projects\Intro-Programming-Homework\PrintsFirstAndLastName\bin\Debug\PrintsFirstAndLastName.exe
+D:\Users\Vencislav\Documents\Visual Studio 2013\Projects\Intro-Programming-Homework\PrintsFirstAndLastName\bin\Debug\PrintsFirstAndLastName.pdb
+D:\Users\Vencislav\Documents\Visual Studio 2013\Projects\Intro-Programming-Homework\PrintsFirstAndLastName\obj\Debug\PrintsFirstAndLastName.exe
+D:\Users\Vencislav\Documents\Visual Studio 2013\Projects\Intro-Programming-Homework\PrintsFirstAndLastName\obj\Debug\PrintsFirstAndLastName.pdb
+D:\Users\Vencislav\Documents\Visual Studio 2013\Projects\Intro-Programming-Homework\PrintsFirstAndLastName\obj\Debug\PrintsFirstAndLastName.csprojResolveAssemblyReference.cache

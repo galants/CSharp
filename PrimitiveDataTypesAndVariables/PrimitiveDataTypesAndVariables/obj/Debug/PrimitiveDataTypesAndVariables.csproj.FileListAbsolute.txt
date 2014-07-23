@@ -1,0 +1,5 @@
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\PrimitiveDataTypesAndVariables\bin\Debug\PrimitiveDataTypesAndVariables.exe.config
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\PrimitiveDataTypesAndVariables\bin\Debug\PrimitiveDataTypesAndVariables.exe
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\PrimitiveDataTypesAndVariables\bin\Debug\PrimitiveDataTypesAndVariables.pdb
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\PrimitiveDataTypesAndVariables\obj\Debug\PrimitiveDataTypesAndVariables.exe
+d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\PrimitiveDataTypesAndVariables\obj\Debug\PrimitiveDataTypesAndVariables.pdb
