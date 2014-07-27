@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30626.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SumOf3Numbers", "01.SumOf3Numbers\01.SumOf3Numbers.csproj", "{46B3DA48-581F-4DA7-8278-668DA1488656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.FallingRocks", "12.FallingRocks\12.FallingRocks.csproj", "{24036F5B-4A56-4B86-8839-B221F20DD582}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46B3DA48-581F-4DA7-8278-668DA1488656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B3DA48-581F-4DA7-8278-668DA1488656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B3DA48-581F-4DA7-8278-668DA1488656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B3DA48-581F-4DA7-8278-668DA1488656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24036F5B-4A56-4B86-8839-B221F20DD582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24036F5B-4A56-4B86-8839-B221F20DD582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24036F5B-4A56-4B86-8839-B221F20DD582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24036F5B-4A56-4B86-8839-B221F20DD582}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
