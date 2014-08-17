@@ -1,1 +1,2 @@
 d:\users\vencislav\documents\visual studio 2013\Projects\PrimitiveDataTypesAndVariables\19.BitsInverter\bin\Debug\19.BitsInverter.exe.config
+D:\Code\CSharp\PrimitiveDataTypesAndVariables\19.BitsInverter\bin\Debug\19.BitsInverter.exe.config
