@@ -4,19 +4,12 @@ class CatalanNumbers
 {
     static void Main(string[] args)
     {
-        int n = int.Parse(Console.ReadLine());
-        BigInteger catalanNumber;
-        BigInteger nDoubleFactDivNAdd1Fact = 1;
-        BigInteger nFact = 1;
+        double n = double.Parse(Console.ReadLine());
+        double catalanNumber=1;
 
-        for(int i=1; i<=n;i++)
-        {
-            nDoubleFactDivNAdd1Fact = nDoubleFactDivNAdd1Fact*(i + n);
-            nFact = nFact*i;
+        for (double i = n; i >0;i--)
+            catalanNumber *= (2*(2*i-1)/(i+1));
 
-        }
-        catalanNumber = nDoubleFactDivNAdd1Fact / (nFact*(n+1));
-
-        Console.WriteLine(catalanNumber);
+            Console.WriteLine((catalanNumber));
     }
 }
