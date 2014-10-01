@@ -1,21 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-class RemoveNames
+
+internal class RemoveNames
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         string str = Console.ReadLine();
-        string[] firstList = str.Split(new char[] { ' ' });
+        string[] firstList = str.Split(new char[] {' '});
 
         str = Console.ReadLine();
-        string[] secondList = str.Split(new char[] { ' ' });
+        string[] secondList = str.Split(new char[] {' '});
 
-        var strExcept = from element in firstList
-                        where !secondList.Contains<string>(element)
-                         select element;
+        var strExcept = firstList.Where(element => !secondList.Contains<string>(element));
 
-        foreach(string print in strExcept)
-            Console.Write(print+" ");
+        foreach (string print in strExcept)
+            Console.Write(print + " ");
     }
 }

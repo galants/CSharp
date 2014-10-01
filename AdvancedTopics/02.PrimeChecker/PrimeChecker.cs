@@ -1,7 +1,8 @@
 ﻿using System;
-class PrimeChecker
+
+internal class PrimeChecker
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         long n = long.Parse(Console.ReadLine());
 
@@ -18,9 +19,9 @@ class PrimeChecker
             isPrime = false;
         }
 
-        for(int i=2;i<=chekBorder;i++)
+        for (int i = 2; i <= chekBorder; i++)
         {
-            if(n%i==0)
+            if (n%i == 0)
             {
                 isPrime = false;
                 break;

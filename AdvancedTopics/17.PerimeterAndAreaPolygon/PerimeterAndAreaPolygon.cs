@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class PerimeterAndAreaPolygon
+internal class PerimeterAndAreaPolygon
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         int n = int.Parse(Console.ReadLine());
         Polygon polygon = new Polygon();
@@ -11,7 +11,7 @@ class PerimeterAndAreaPolygon
         for (int i = 0; i < n; i++)
         {
             string str = Console.ReadLine();
-            string[] strArr = str.Split(new char[] { ' ' });
+            string[] strArr = str.Split(new char[] {' '});
             string x = strArr[0];
             string y = strArr[1];
 
@@ -25,10 +25,12 @@ class PerimeterAndAreaPolygon
 
 public class Point
 {
-    double x;
-    double y;
+    private double x;
+    private double y;
 
-    public Point() { }
+    public Point()
+    {
+    }
 
     public Point(double x, double y)
     {
@@ -68,6 +70,7 @@ public class Polygon
     {
         listPoint.Add(point);
     }
+
     public void Add(string x, string y)
     {
         double doubleX = double.Parse(x);
@@ -145,13 +148,12 @@ public class Polygon
 
     private double DistanceTwoPoint(double x1, double x2, double y1, double y2)
     {
-        return Math.Sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2));
+        return Math.Sqrt((x1 - x2)*(x1 - x2) + (y1 - y2)*(y1 - y2));
     }
 
     private double Area(double x1, double x2, double y1, double y2)
     {
-
-        double area = ((x1 * y2) - (y1 * x2)) / 2;
+        double area = ((x1*y2) - (y1*x2))/2;
 
         return area;
     }

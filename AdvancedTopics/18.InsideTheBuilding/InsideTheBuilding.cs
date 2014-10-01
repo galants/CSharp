@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-class InsideTheBuilding
+
+internal class InsideTheBuilding
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         int h = int.Parse(Console.ReadLine());
         int countPoint = 5;
@@ -31,16 +32,17 @@ class InsideTheBuilding
                 Console.WriteLine("outside");
             }
         }
-
     }
 }
 
 public class Point
 {
-    int x;
-    int y;
+    private int x;
+    private int y;
 
-    public Point() { }
+    public Point()
+    {
+    }
 
     public Point(int x, int y)
     {
@@ -63,7 +65,8 @@ public class Point
 
 public class Building
 {
-    int h;
+    private int h;
+
     public Building()
     {
     }
@@ -81,8 +84,8 @@ public class Building
 
     public bool IsPointInBuilding(Point point)
     {
-        int firstFloorLength = 3 * H;
-        int Height = 4 * H;
+        int firstFloorLength = 3*H;
+        int Height = 4*H;
         int size = H;
 
         if (point.Y <= size && point.Y >= 0)
@@ -92,9 +95,9 @@ public class Building
                 return true;
             }
         }
-        else if (point.Y <= Height&&point.Y >=size)
+        else if (point.Y <= Height && point.Y >= size)
         {
-            if ((point.X >= size) && (point.X <= 2 * size))
+            if ((point.X >= size) && (point.X <= 2*size))
             {
                 return true;
             }
@@ -102,5 +105,4 @@ public class Building
 
         return false;
     }
-
 }

@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-class MagicCarNumbers
+
+internal class MagicCarNumbers
 {
-    private static string[] listSymbol = { "A", "B", "C", "E", "H", "K", "M", "P", "T", "X" };
+    private static string[] listSymbol = {"A", "B", "C", "E", "H", "K", "M", "P", "T", "X"};
     private static int weight = 0;
     private static List<string> listCarNum = new List<string>();
-    static void Main(string[] args)
+
+    private static void Main(string[] args)
     {
         weight = int.Parse(Console.ReadLine());
 
@@ -27,7 +29,8 @@ class MagicCarNumbers
         var result = listCarNum.Distinct().ToList();
         Console.WriteLine(result.Count);
     }
-    static void CheckCarNum(string carNum)
+
+    private static void CheckCarNum(string carNum)
     {
         CarNumber carNumber = new CarNumber(weight);
 
@@ -39,7 +42,7 @@ class MagicCarNumbers
         }
     }
 
-    static void Check(int a, int b, int x, int y)
+    private static void Check(int a, int b, int x, int y)
     {
         string strCarNum;
         if (a != b)
@@ -62,9 +65,9 @@ class MagicCarNumbers
 
 public class CarNumber
 {
-    string carNum;
-    int weight;
-    Dictionary<string, int> weightCarNumberChar = new Dictionary<string, int>();
+    private string carNum;
+    private int weight;
+    private Dictionary<string, int> weightCarNumberChar = new Dictionary<string, int>();
 
     public CarNumber(int weight)
     {
@@ -86,6 +89,7 @@ public class CarNumber
         get { return carNum; }
         set { carNum = value; }
     }
+
     public bool IsMagicNum()
     {
         int weightCarNum = 40;
@@ -105,6 +109,7 @@ public class CarNumber
             return false;
         }
     }
+
     private int GetWeight(int position)
     {
         string str = carNum[position].ToString();

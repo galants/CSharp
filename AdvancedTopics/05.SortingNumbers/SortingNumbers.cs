@@ -1,7 +1,8 @@
 ﻿using System;
-class SortingNumbers
+
+internal class SortingNumbers
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         int n = int.Parse(Console.ReadLine());
         int[] numbers = new int[n];
@@ -13,8 +14,7 @@ class SortingNumbers
 
         Array.Sort(numbers);
 
-        foreach(int num in numbers)
+        foreach (int num in numbers)
             Console.WriteLine(num);
     }
 }
-

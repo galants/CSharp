@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-class StudentCables
+
+internal class StudentCables
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         int lose = 0;
         int countStdentCables = 0;
@@ -15,7 +16,7 @@ class StudentCables
         {
             int lenght = int.Parse(Console.ReadLine());
             string str = Console.ReadLine();
-            if(str.Equals("meters"))
+            if (str.Equals("meters"))
             {
                 lenght *= 100;
             }
@@ -27,11 +28,11 @@ class StudentCables
         foreach (int cabel in lines)
             lenghtCable += cabel;
 
-        lenghtCable -= 3 * (lines.Count-1);
-        lenghtStdentCables = 5 * 100 + 2 * 2;
+        lenghtCable -= 3*(lines.Count - 1);
+        lenghtStdentCables = 5*100 + 2*2;
 
-        lose = lenghtCable % lenghtStdentCables;
-        countStdentCables = lenghtCable / lenghtStdentCables;
+        lose = lenghtCable%lenghtStdentCables;
+        countStdentCables = lenghtCable/lenghtStdentCables;
 
         Console.WriteLine(countStdentCables);
         Console.WriteLine(lose);

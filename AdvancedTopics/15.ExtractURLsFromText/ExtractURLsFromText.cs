@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Linq;
-class ExtractURLsFromText
+
+internal class ExtractURLsFromText
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         string str = Console.ReadLine();
-        string[] strArr = str.Split(new string[]{" ",". "}, StringSplitOptions.RemoveEmptyEntries);
+        string[] strArr = str.Split(new string[] {" ", ". "}, StringSplitOptions.RemoveEmptyEntries);
 
         var result = strArr.Where(element => element.Contains("http://") || element.Contains("www."));
 

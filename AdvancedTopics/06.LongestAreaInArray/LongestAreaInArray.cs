@@ -1,7 +1,8 @@
 ﻿using System;
-class LongestAreaInArray
+
+internal class LongestAreaInArray
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         int n = int.Parse(Console.ReadLine());
         string[] strArray = new string[n];
@@ -18,7 +19,7 @@ class LongestAreaInArray
 
         for (int i = 1; i < strArray.Length; i++)
         {
-            string last = strArray[i-1];
+            string last = strArray[i - 1];
 
             if ((strArray[i].Equals(last)))
             {

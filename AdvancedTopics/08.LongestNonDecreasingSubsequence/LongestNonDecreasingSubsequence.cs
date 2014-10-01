@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-class LongestNonDecreasingSubsequence
+
+internal class LongestNonDecreasingSubsequence
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         string str = Console.ReadLine();
 
-        string[] strArr = str.Split(new char[] { ' ' });
-        int[] numbers = new int[strArr.Length];
+        string[] strArr = str.Split(new char[] {' '});
+        int[] numbers;
+        numbers = new int[strArr.Length];
 
         int lastNum = 0;
 
@@ -50,6 +52,5 @@ class LongestNonDecreasingSubsequence
 
         foreach (int num in numberArray)
             Console.Write(num + " ");
-
     }
 }

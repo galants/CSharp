@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-class PrimesInGivenRange
+
+internal class PrimesInGivenRange
 {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         int startNum = int.Parse(Console.ReadLine());
         int endNum = int.Parse(Console.ReadLine());
@@ -20,7 +21,7 @@ class PrimesInGivenRange
         Console.WriteLine();
     }
 
-    static List<int> FindPrimesInRange(int startNum, int endNum)
+    private static List<int> FindPrimesInRange(int startNum, int endNum)
     {
         List<int> primeNumbers = new List<int>();
         if (startNum < 2)
@@ -33,7 +34,7 @@ class PrimesInGivenRange
 
             for (int j = 2; j <= chekBorder; j++)
             {
-                if (i % j == 0)
+                if (i%j == 0)
                 {
                     isPrime = false;
                     break;
